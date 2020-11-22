@@ -3,7 +3,8 @@
 1. Clone this project
 2. CD into the directory 
 3. Install all packages with `npm install`
-4. Start the server with `npm start`
+4. Generate the CSS with `npm run build:css`
+5. Start the server with `npm start`
 
 ---
 
