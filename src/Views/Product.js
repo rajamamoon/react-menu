@@ -45,7 +45,7 @@ function Product() {
         <div className="font-bold text-xl mb-3">
           {product.data.meals[0].strMeal}
         </div>
-        <div>{product.data.meals[0].strCategory}</div>
+        <div>{product.data.meals[0].strInstructions}</div>
       </div>
     );
   }

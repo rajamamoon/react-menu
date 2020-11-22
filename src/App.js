@@ -5,6 +5,11 @@ import Footer from "./Components/Footer";
 import Home from "./Views/Home";
 import About from "./Views/About";
 import Product from "./Views/Product";
+import Seafood from "./Views/Seafood";
+import Beef from "./Views/Beef";
+import Chicken from "./Views/Chicken";
+import Lamb from "./Views/Lamb";
+import Dessert from "./Views/Dessert";
 
 function App() {
   return (
@@ -19,6 +24,21 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/seafood">
+              <Seafood />
+            </Route>
+            <Route path="/beef">
+              <Beef />
+            </Route>
+            <Route path="/chicken">
+              <Chicken />
+            </Route>
+            <Route path="/lamb">
+              <Lamb />
+            </Route>
+            <Route path="/dessert">
+              <Dessert />
             </Route>
             <Route path="/products/:id">
               <Product />

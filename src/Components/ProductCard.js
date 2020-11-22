@@ -19,7 +19,7 @@ function ProductCard(props) {
           </Link>
         </h3>
         <div className="font-bold mb-3"> {props.product.name}</div>
-        <div className="mb-3">{props.product.strInstructions}</div>
+        <div className="mb-3">{props.product.strCategory}</div>
         <Link
           to={`/products/${props.product.idMeal}`}
           className="bg-blue-500 text-white p-2 flex justify-center w-full"

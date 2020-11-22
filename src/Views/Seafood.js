@@ -3,7 +3,7 @@ import Loader from "../Components/Loader";
 import ProductCard from "../Components/ProductCard";
 import { useAxiosGet } from "../Hooks/HttpRequests";
 
-function Home() {
+function Seafood() {
   const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood`;
   let products = useAxiosGet(url);
 
@@ -40,10 +40,10 @@ function Home() {
 
   return (
     <div className="container mx-auto">
-      <h1 className="font-bold text-2xl mb-3">Best Sellers</h1>
+      <h1 className="font-bold text-2xl mb-3">Sea Food</h1>
       <div className="md:flex flex-wrap md:-mx-3">{content}</div>
     </div>
   );
 }
 
-export default Home;
+export default Seafood;
